@@ -1,10 +1,8 @@
 const SLIDE_INTERVAL = 13000;
 
 const TIPS = [
-    "Multiple Stunt Jumps can be found around the state.",
-    "Respect other players on the server to avoid getting banned.",
-    "Visit the local Auto Shop to customize your vehicles.",
-    "Press F1 to open your personal smartphone in-game.",
+    "Server created by v3kad & sveo",
+    "GTA5 IN GMOD WOW OMG!!!!",
     "Join our Discord community for rules and updates."
 ];
 
