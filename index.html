@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA V Loading Screen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="viewport">
+        <div class="slide active is-moving">
+            <div class="frame-3d">
+                <div class="frame-bg" style="background-image: url('bg1.jpg');"></div>
+            </div>
+            <img src="char1.png" class="char-img" alt="" onerror="this.style.display='none'">
+        </div>
+
+        <div class="slide">
+            <div class="frame-3d">
+                <div class="frame-bg" style="background-image: url('bg2.jpg');"></div>
+            </div>
+            <img src="char2.png" class="char-img" alt="" onerror="this.style.display='none'">
+        </div>
+
+        <div class="slide">
+            <div class="frame-3d">
+                <div class="frame-bg" style="background-image: url('bg3.jpg');"></div>
+            </div>
+            <img src="char3.png" class="char-img" alt="" onerror="this.style.display='none'">
+        </div>
+
+        <div class="slide">
+            <div class="frame-3d">
+                <div class="frame-bg" style="background-image: url('bg4.jpg');"></div>
+            </div>
+            <img src="char4.png" class="char-img" alt="" onerror="this.style.display='none'">
+        </div>
+
+        <div class="slide">
+            <div class="frame-3d">
+                <div class="frame-bg" style="background-image: url('bg5.jpg');"></div>
+            </div>
+            <img src="char5.png" class="char-img" alt="" onerror="this.style.display='none'">
+        </div>
+    </div>
+
+    <div id="ui">
+        <div class="tip-box">
+            <div class="tip-icon">i</div>
+            <div class="tip-text" id="tip-text">Multiple Stunt Jumps can be found around the state.</div>
+        </div>
+
+        <div class="logo-box">
+            <img src="gta_logo.png" alt="GTA V" class="gta-logo">
+        </div>
+
+        <div class="loading-box">
+            <span id="loading-text">Loading</span>
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <audio id="bg-music" loop autoplay preload="auto" src="music.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
